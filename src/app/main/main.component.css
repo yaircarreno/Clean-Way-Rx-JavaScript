@@ -1,0 +1,22 @@
+
+.main-content {
+  text-align: -webkit-center;
+}
+
+.btn-group button {
+    background-color: #ff4081;
+    border: 1px solid #ff4081;
+    color: white;
+    padding: 10px 24px;
+    cursor: pointer;
+    width: 50%;
+    display: block;
+  }
+  
+  .btn-group button:not(:last-child) {
+    border-bottom: none;
+  }
+  
+  .btn-group button:hover {
+    background-color: #D500F9;
+  }

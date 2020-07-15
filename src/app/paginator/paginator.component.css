@@ -1,0 +1,12 @@
+.paginator {
+    padding: 20px;
+    text-align: center;
+}
+
+.button-options {
+    display: inline-grid;
+}
+
+.button-options button{
+    margin: 5px;
+}

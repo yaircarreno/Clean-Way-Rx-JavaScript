@@ -1,0 +1,10 @@
+<div class="paginator">
+    <p>Paginator example!</p>
+    <div class="button-options">
+        <button mat-raised-button color="primary" (click)="loadInitialPage()">Load initial page</button>
+        <button mat-raised-button color="primary" (click)="getNewPageByScrolling()">Get new page by scrolling</button>
+        <button mat-raised-button color="primary" (click)="getNewPageManually()">Get new page manually</button>
+        <button [routerLink]="'/home'" mat-raised-button color="accent"> Go Home</button>
+    </div>
+    <p>{{resultsText}}</p>
+</div>
