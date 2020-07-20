@@ -1,11 +1,11 @@
-# The Clean Way to Use Rx
+# Book: The Clean Way to Use Rx
 
-[English Version](https://leanpub.com/the-clean-way-to-use-rx)
-[Spanish Version](https://leanpub.com/the-clean-way-to-use-rx-spanish)
+- [English Version](https://leanpub.com/the-clean-way-to-use-rx)
+- [Spanish Version](https://leanpub.com/the-clean-way-to-use-rx-spanish)
 
-This work, groups the different practices used in the implementation of software components through *Rx* extensions. These practices are organized into 35 application items, and for each item, it is analyzed, which are the recommended code practices and the practices to avoid.
+This work, groups the different practices used in the implementation of software components through *Rx* extensions. These practices are organized into **35 application items**, and for each item, it is analyzed, which are the recommended code practices and the practices to avoid.
 
-It could also be said that this document is the compilation of good practices learned through the own experience acquired in business projects, recommendations received from forums, blogs, workshops and in general from analyzes given by experts in the area, including the recommendations given in the official sites of each extension [^1].
+It could also be said that this document is the compilation of good practices learned through the own experience acquired in business projects, recommendations received from forums, blogs, workshops and in general from analyzes given by experts in the area, including the recommendations given in the official sites of each extension.
 
 This book is also intended as a practical reference manual for implementing *Rx* code. That is why much of the book's material consists of examples of *code snippets* written in the main programming languages ​​for both Frontend (Mobile, Web; that is, JavaScript, Swift, Java) such as Backend.
 
