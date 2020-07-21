@@ -114,11 +114,15 @@ export class Item29 {
                 flatMap(id => of(`Request to API C whith userId =: ${id}`)),
                 take(1));
 
-        merge(
+        const subscription = merge(
             observableA,
             observableB,
             observableC
         ).subscribe(result =>
             console.log(result));
+
+        setTimeout(() => {
+            subscription.unsubscribe();
+        }, 5000);
     }
 }
